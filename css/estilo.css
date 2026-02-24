@@ -1,0 +1,20 @@
+body{
+    background-color: #422106;
+    margin: 40px 50px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.links{
+    margin: 400px;
+    background-color: #ee9144;
+    padding: 0.5em 1em ;
+    border-radius: 20px;
+}
