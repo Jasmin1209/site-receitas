@@ -1,20 +1,137 @@
 body{
-    background-color: #422106;
-    margin: 40px 50px;
-    padding: 20px;
-    border: 1px solid white;
-    border-radius: 10px;
+    margin: 0;
+    background-image: url(/img/fundo-body.png);
 }
+
 
 a{
     color: white;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
+h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 1px ;
+}
+
+h1{
+    color: white;
+    margin: 0px 600px 0px 500px;
+}
+
+/*Usado nas TEXTO DESCRITIVO DAS RECEITAS EM DESTAQUE*/
+span{
+    font-size: 0.7em;
+}
+
+a:hover{
+    color: #2e1d04;
+}
+
+/*Usado nas TÍTULOS DAS RECEITAS EM DESTAQUE*/
+span p{
+    font-size: 1.5em; 
+    margin: 15px;
+    color: aliceblue;
+    background-color: #db8344;
+    padding: 0.2em;
+}
+
+#container-principal{
+    max-width: 1400px;
+    margin: 30px auto;
+    background-color: #422106d7;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 2000px;
+}
+
+/*Usado nas FUNDO DAS RECEITAS EM DESTAQUE*/
+#container-receitas{
+    max-width: 1400px;
+    margin: 30px auto;
+    background-color: #4221063b;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#texto-receitas-em-destaque{
+    background-color: #EDF0DA;
+    color: #2e1d04;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+/*Usado nas DOBRE A PÁGINA*/
+.introducao{
+    border: 1px solid white;
+    margin: 25px auto;
+    max-width: 900px;
+    padding: 1em;
+    color: #EDF0DA;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #CE8147;
+}
+
+/*Usado nas BOTÕES DE VER RECEITA*/
+.ver-receita{
+    margin: 5px 80px;
+    padding: 0.5em 1.3em;
+    color: #EDF0DA;
+    background-color:#FF7512;
+    font-size: large;
+}
+
+button:hover{
+    background-color: #2e1d04;
+}
+
+/*Usado nas LINKS */
 .links{
-    margin: 400px;
+    margin: 20px auto;
+    width: fit-content;
     background-color: #ee9144;
     padding: 0.5em 1em ;
     border-radius: 20px;
 }
+
+.divs-receitas{
+    position: relative;
+    float: left;
+}
+
+/*Usado nas RECEITAS EM DESTAQUE*/
+.em-destaque{
+    border-color: burlywood ;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 8%;
+    background-color: wheat;
+    background-position: left;
+    width: 500px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
+    display: flex; /* Ativa o flexbox */
+    align-items: start; /* Alinha verticalmente ao centro */
+    gap: 20px; /* Cria um espaço entre a imagem e o texto */ 
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.imagem-receitas{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 200px; 
+    height: 240px; 
+}
+
+
+

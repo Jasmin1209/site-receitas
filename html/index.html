@@ -7,19 +7,96 @@
     <link rel="stylesheet" href="/css/estilo.css">
 </head>
 <body>
-    <div>
-        <img style="margin-bottom: 20px;" src="/img/fundo-receita.png" width="1375px" alt="receitas silva's">
+    <div id="container-principal"> <!--caixa principal-->
+
+        <div> <!--TOPO-->
+            <h1>Seja Bem-vindo(a)</h1>
+            <img style="margin: 20px;" src="/img/fundo-receita.png" width="1365px" alt="receitas silva's">
+        </div>
         
-        <div>
-            <span class="links">
+        <div class="links"> <!--LINK CATEGORIA-->
+            <!--<span class="links">-->
                 <a href="/html/bolos.html">BOLOS</a> |
                 <a href="/html/torta.html">TORTA</a> |
                 <a href="/html/bebidas-geladas.html">BEBIDAS GELADAS</a> |
                 <a href="/html/bebidas-quente.html">BEBIDAS QUENTES</a> |
-            </span>
+            <!--</span>-->
+        </div>
+
+        <div class="introducao"> <!--sobre a página-->
+            <h2>SOBRE</h2>
+            <span><strong>RECEITAS SILVA</strong> nasceu com o propósito de transformar momentos simples em experiências especiais através da culinária. <br></span>
+            <span>Acreditamos que cozinhar vai muito além de preparar alimentos — é um ato de carinho, criatividade e conexão. <br></span>
+            <span>Nosso site foi criado para compartilhar receitas acessíveis, práticas e saborosas, pensadas tanto para quem está dando os primeiros passos na cozinha quanto para quem já possui experiência e deseja explorar novos sabores. </span> 
+            <span>Cada receita é cuidadosamente organizada, com instruções claras, lista de ingredientes detalhada e dicas que facilitam o preparo.</span>
+            <span>Aqui você encontrará pratos para diferentes ocasiões: desde receitas rápidas para o dia a dia até opções mais elaboradas para momentos especiais com a família e amigos. </span>
+            <span>Nosso objetivo é tornar a cozinha um espaço acolhedor, onde experimentar e aprender faz parte do processo.</span>
+            <span>Além disso, prezamos pela simplicidade e organização, oferecendo uma navegação intuitiva para que você encontre facilmente o que procura. Queremos que sua experiência seja agradável, prática e inspiradora.</span>
+            <span>Seja bem-vindo(a) ao Receitas Silva — um espaço onde o sabor encontra a dedicação, e cada prato conta uma história.</span>   
+        </div>
+
+    </div> <!--caixa principal-->
+
+    <h2 id="texto-receitas-em-destaque">Receitas Em Destaque</h2>
+    <div id="container-receitas">
+        <div class="divs-receitas">
+                <div class="em-destaque">
+                    <img class="imagem-receitas" src="/img/Brigadeirão.jfif" alt="">
+                    <span>
+                        <p>Brigadeirão</p>
+                        O brigadeirão é uma sobremesa brasileira cremosa e intensa, feita à base de leite condensado, chocolate e ovos, geralmente preparada no forno em banho-maria. Com textura semelhante a um pudim, porém mais densa e chocolatuda, ele é finalizado com granulado ou raspas de chocolate, sendo uma opção perfeita para quem ama sobremesas ricas e marcantes.
+                    </span>
+                </div>
+            <form action="/html/destaque/brigadeirao.html">
+                <button class="ver-receita" type="submit" value="Ver Receita" name="brigadeirao">
+                    Ver Receita
+                </button>
+            </form>
         </div>
         
-    </div>
+        <div class="divs-receitas">
+            <div class="em-destaque">
+                <img class="imagem-receitas" src="/img/empada.jfif" alt="">
+                <span>
+                    <p>🥧 Empadão</p>
+                    O empadão é um prato tradicional brasileiro, conhecido por sua massa dourada e macia que envolve um recheio cremoso e bem temperado, geralmente de frango, carne ou palmito. Assado até ficar levemente crocante por fora e suculento por dentro, é uma opção perfeita para refeições em família ou ocasiões especiais.
+                </span>
+            </div>
+            <input class="ver-receita" type="button" value="Ver Receita" name="empada">
+        </div>
+
+        <div class="divs-receitas">
+            <div class="em-destaque">
+                    <img class="imagem-receitas" src="/img/café.jfif" alt="">
+                    <span>
+                        <P>🧊 Café Gelado</P>
+                        O café gelado é uma bebida refrescante e energética, preparada com café forte servido com gelo e, muitas vezes, combinado com leite ou um toque de açúcar. Ideal para dias quentes, ele mantém o sabor intenso do café tradicional, mas com uma leveza e frescor irresistíveis.
+                    </span>
+                </div>
+            <input class="ver-receita" type="button" value="Ver Receita" name="empada">
+        </div>
+        
+        <div class="divs-receitas">
+            <div class="em-destaque">
+                    <img class="imagem-receitas" src="/img/chocolate-quente.jfif" alt="">
+                    <span>
+                        <p>☕ Chocolate Quente</p>
+                        O chocolate quente é uma bebida cremosa e reconfortante, feita com leite e chocolate derretido, resultando em uma textura aveludada e sabor marcante. Perfeito para dias frios, ele aquece e traz aquela sensação de aconchego a cada gole.
+                    </span>
+            </div>
+            <input class="ver-receita" type="button" value="Ver Receita" name="empada">
+        </div>
+
+        <div class="divs-receitas">
+            <div class="em-destaque">
+                    <img class="imagem-receitas" src="/img/Pavê de Ouro.jfif" alt="">
+                    <span>
+                        <p>🍫 Pavê de Ouro Branco</p>
+                        O pavê de Ouro Branco é uma sobremesa sofisticada e irresistível, feita com camadas de creme suave, biscoito e pedaços do famoso chocolate Ouro Branco. Com textura cremosa e sabor equilibrado entre doce e chocolatudo, é uma escolha perfeita para surpreender em qualquer celebração.
+                    </span>
+            </div>
+            <input class="ver-receita" type="button" value="Ver Receita" name="empada">
+        </div>
     
 </body>
 </html>
