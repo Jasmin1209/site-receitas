@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-image: url(/img/fundo-body.png);
+}
+
+#principal{
+    background-color: rgba(255, 255, 255, 0.781);
+    margin: 50px ;
+    position: relative;
+    padding: 40px;
+    max-height: 1200px;
+}
+
+#ingredientes{
+    position: relative;
+    float: right;
+    border: 2px solid black;
+    width: 30em;
+    padding-left: 30px;
+}
+
+#preparo{
+    position: relative;
+    left: 805px;
+    bottom: 550px;
+    width: 30em;
+    border: 2px solid black;
+    padding-left: 30px;
+}
+
+
+#inicio{
+    position: relative;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 10px;
+    font-size: 1.0em;
+
+    background-color: rgba(128, 34, 34, 0.925);
+    color: white;
+}
+
+#voltar{
+    position: absolute;
+    top: 15px;
+    left: 10;
+
+    font-size: 1em;
+    background-color: white;
+    color: rgba(128, 34, 34, 0.925);
+    font-weight: bold;
+}
+
+#voltar:hover{
+    background-color: rgba(128, 34, 34, 0.925);
+    color: white;
+}
+
+.formatacao{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 0.2em;
+    margin: 30px;
+}
+
+#utensilios{
+    position: relative;
+    float: right;
+    width: 30em;
+    bottom: 800px;
+    border: 2px solid black;
+    padding-left: 30px;
+}
+
+.utensilio{
+    float: left;
+    font-size: 0.8em;
+    margin: 1em auto;
+    border: 1px solid black;
+    padding: 0.5em;
+}
